@@ -1,0 +1,2 @@
+object
+-DCATKIN_DEVEL_PREFIX=/home/arun/ROS_PROJECTS/object_recognition/devel -DCMAKE_INSTALL_PREFIX=/home/arun/ROS_PROJECTS/object_recognition/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/arun/ROS_PROJECTS/object_recognition/devel
+
+Name: object
+Description: Description of object
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

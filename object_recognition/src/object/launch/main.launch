@@ -1,0 +1,14 @@
+<launch>
+    <include file="$(find fetch_gazebo)/launch/main.launch" >
+        <arg name="pause" value="false"/>
+        <arg name="world_name" default="$(find object_recogn_tc)/worlds/object_recognition.world"/>
+        <arg name="x" value="0.0" />
+        <arg name="y" value="0.0" />
+        <arg name="z" value="0.0" />
+        <arg name="yaw" value="3.14" />
+    </include>
+
+    <!-- Start navigation -->
+    <include file="$(find fetch_gazebo_demo)/launch/fetch_nav.launch" />
+
+</launch>

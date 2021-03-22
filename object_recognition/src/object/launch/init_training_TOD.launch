@@ -1,0 +1,12 @@
+<launch>
+    
+    <arg name="tabletop_ork_file" value="$(find object_recogn_tc)/conf/training.ork"/>
+    
+    <node pkg="object_recognition_core"
+    type="training"
+    name="training_server_node"
+    args="-c $(arg tabletop_ork_file) --visualize"
+    output="screen">
+    </node>
+
+</launch>

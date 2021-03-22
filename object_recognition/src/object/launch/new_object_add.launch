@@ -1,0 +1,5 @@
+<launch>
+    <!-- This launch will return the ID for the DB -->
+    <node name="add_new_object_node" pkg="object_recogn_tc" type="add_new_object.sh" respawn="false" output="screen"/>
+
+</launch>
